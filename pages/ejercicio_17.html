@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pages.css">
+    <title>Ejercicio 17</title>
+</head>
+<body>
+    <h1>Verificar si cada número es perfecto</h1>
+    <form action="../index.html">
+        <h3>Formulario:</h3>
+        <div>
+            <label for="numero_1">Numero 1:</label>
+            <input type="number" id="numero_1" value="6">
+            <label for="numero_2">Numero 2:</label>
+            <input type="number" id="numero_2" value="10">
+            <label for="numero_3">Numero 3:</label>
+            <input type="number" id="numero_3" value="28">
+        </div>
+        <div>
+            <button type="button" onclick="limpiar_consola(), ejecutar()">Ejecutar</button>
+            <button type="button" onclick="limpiar_consola()">Limpiar</button>
+            <button type="submit">Regresar</button>
+        </div>
+    </form>
+    <div id="editor">
+        <h3>Codigo:</h3>
+        <pre id="code"></pre>
+    </div>
+    <div id="consola">
+        <h3>Consola:</h3>
+        <div id="output"></div>
+    </div>
+</body>
+    <script>
+        let ruta = 'js/script_17.js'
+    </script>
+    <script src="js/codigo.js"></script>
+    <script src="js/script_17.js"></script>
+</html>

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 20px 10px;
+}
+
+body div a {
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+body div a span {
+    width: 10px;
+    height: 2px;
+    background: black;
+    transition: all 0.3s;
+}
+
+body div a:hover {
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+body div a:hover span {
+    width: 20px;
+    transition: all 0.3s;
+}

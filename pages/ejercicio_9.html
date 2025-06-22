@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pages.css">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+    <h1>Recorrer un arreglo con for</h1>
+    <form action="../index.html">
+        <h3>Formulario:</h3>
+        <div>
+            <label for="valor_1">Valor 1:</label>
+            <input type="text" id="valor_1" value="manzana">
+            <label for="valor_2">Valor 2:</label>
+            <input type="text" id="valor_2" value="banana">
+            <label for="valor_3">Valor 3:</label>
+            <input type="text" id="valor_3" value="uva">
+        </div>
+        <div>
+            <button type="button" onclick="limpiar_consola(), ejecutar()">Ejecutar</button>
+            <button type="button" onclick="limpiar_consola()">Limpiar</button>
+            <button type="submit">Regresar</button>
+        </div>
+    </form>
+    <div id="editor">
+        <h3>Codigo:</h3>
+        <pre id="code"></pre>
+    </div>
+    <div id="consola">
+        <h3>Consola:</h3>
+        <div id="output"></div>
+    </div>
+</body>
+    <script>
+        let ruta = 'js/script_9.js'
+    </script>
+    <script src="js/codigo.js"></script>
+    <script src="js/script_9.js"></script>
+</html>

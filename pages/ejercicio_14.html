@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pages.css">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <h1>Comparar dos palabras letra por letra</h1>
+    <form action="../index.html">
+        <h3>Formulario:</h3>
+        <div>
+            <label for="palabra_1">Palabra 1:</label>
+            <input type="text" id="palabra_1" value="Solar">
+            <label for="palabra_2">Palabra 2:</label>
+            <input type="text" id="palabra_2" value="Lunar">
+        </div>
+        <div>
+            <button type="button" onclick="limpiar_consola(), ejecutar()">Ejecutar</button>
+            <button type="button" onclick="limpiar_consola()">Limpiar</button>
+            <button type="submit">Regresar</button>
+        </div>
+    </form>
+    <div id="editor">
+        <h3>Codigo:</h3>
+        <pre id="code"></pre>
+    </div>
+    <div id="consola">
+        <h3>Consola:</h3>
+        <div id="output"></div>
+    </div>
+</body>
+    <script>
+        let ruta = 'js/script_14.js'
+    </script>
+    <script src="js/codigo.js"></script>
+    <script src="js/script_14.js"></script>
+</html>
