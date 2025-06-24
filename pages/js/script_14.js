@@ -4,7 +4,14 @@ function ejecutar() {
 
     for (let i = 0; i < palabra1.length; i++) { 
         let letra1 = palabra1[i]; 
-        let letra2 = palabra2[i]; 
-        consola_salida(`¿Son iguales en posición ${i}? ${letra1 === letra2}`); 
+        let letra2 = palabra2[i];
+
+        if (letra1 === letra2) {
+            igualdad = 'Si'
+        } else {
+            igualdad = 'No'
+        }
+
+        consola_salida(`¿Son iguales en posición ${i}? ${igualdad}`); 
     } 
 }
